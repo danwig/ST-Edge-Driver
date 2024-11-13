@@ -81,10 +81,10 @@ local hue_motion_driver = {
 			{
 				cluster = clusters.IlluminanceMeasurement.ID,
 				attribute = clusters.IlluminanceMeasurement.attributes.MeasuredValue.ID,
-				minimum_interval = 5,
-				maximum_interval = 300,
+				minimum_interval = 1,
+				maximum_interval = 5,
 				data_type = data_types.Uint16,
-				reportable_change = 1000
+				reportable_change = 5
 			}
 		}
 	},
